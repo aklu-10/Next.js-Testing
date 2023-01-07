@@ -1,0 +1,21 @@
+@media (max-width:886px)
+{
+    .container
+    {
+       flex-direction:column;     
+       align-items:center;
+    }
+
+    .container img
+    {
+       margin:0%;
+    }
+
+
+    .container .productData
+    {
+        padding:0px;
+        margin:100px;
+    }
+
+}

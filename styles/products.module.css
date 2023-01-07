@@ -1,0 +1,36 @@
+.products
+{
+   margin-top:5%;
+   display:flex;
+   justify-content:space-around;
+   align-items:center;
+   flex-wrap:wrap;
+}
+
+.products .productItem 
+{
+    width:max-content;
+    margin:2%;
+    margin-bottom:100px;
+}
+
+.products .productItem img
+{
+    border:1px solid white;
+    width:200px;
+    height:200px;
+    object-fit:cover;
+}
+
+.products .productItem img:hover
+{
+    transform:scale(.9);
+}
+
+
+
+.products .productItem p
+{
+    margin-top:20px;
+}
+

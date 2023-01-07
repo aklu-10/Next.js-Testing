@@ -1,0 +1,30 @@
+.headContainer
+{
+    display:flex;
+    justify-content:space-between;
+    padding:3% 0;
+}
+
+.headContainer .logo
+{
+    transition:.2s ease;
+    font-size:1.7rem;
+}
+
+.headContainer nav
+{
+    min-width:30%;
+    display:flex;
+    justify-content:space-around;
+}
+
+.headContainer .menu
+{
+    position:fixed;
+    top:10px;
+    right:6%;
+    display:none;
+    cursor:pointer;
+    user-select:none;
+}
+
